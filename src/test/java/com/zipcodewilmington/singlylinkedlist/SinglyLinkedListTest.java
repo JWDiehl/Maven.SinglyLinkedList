@@ -63,7 +63,7 @@ public class SinglyLinkedListTest {
         list.add(3);
 
         assertEquals(1, list.find(2));
-        assertEquals(88, list.find(7));
+        assertEquals(-1, list.find(88));
     }
 
     //size -- returns the current size of the list
